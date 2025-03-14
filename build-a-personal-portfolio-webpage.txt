@@ -1,0 +1,129 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Portfolio page</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+          <ul>
+          <li><a href="welcome-section">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a id="profile-link" href="https://github.com/your-github-profile" target="_blank">GitHub</a></li>
+          </ul>
+        </nav>
+    <section id="welcome-section">
+      <h1>Welcome to the personal portfolio Page</h1>
+      <p>I'am a web Developer passionate about building interactive web experiences.</p>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-tile">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio to showcaase my work.</p>
+          <a href="https://yoyr-portfolio-link.com" target="_blank">View Project</a>
+          </div>
+          <div class="project-tile">
+            <h3>Blog Website</h3>
+            <p>A simple blog website created using HTML,CSS,and javascript.</p>
+            <a href="https://your-blog-link.com" target="_blank">View Project</p>
+            </div>
+      </section>
+      <section id="Contact">
+        <h2>Contact me</h2>
+        <p>Email:your-email@example.com</p>
+        </section>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  font-family:Arial,sans-serif;
+  margin:0;
+  padding:0;
+  background-color:#f4f4f4;
+  text-align:center;
+}
+#navbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#333;
+  padding:15px 0;
+  z-index:1000;
+}
+#navbar ul{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+#navbar ul li{
+  display:inline;
+  margin:0 15px;
+
+}
+#navbar ul li a{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+
+}
+#welcome-section{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  background:#222;
+  color:white;
+}
+#projects{
+  padding:40px;
+  background:white;
+  margin:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.project-tile{
+  background:#ddd;
+  padding:15px;
+  margin:10px;
+  border-radius:5px;
+}
+.project-tile a{
+  display:inline-block;
+  margin-top:10px;
+  padding:5px 10px;
+  background:#333;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+
+}
+.project-tile a:hover{
+  background:#555;
+
+}
+#contact{
+  padding:40px;
+  background:#555;
+  color:white;
+}
+@media(max-wdth:768px){
+  #navbar ul li{
+    display:block;
+    margin:10px 0;
+  }
+}
+
+
+** end of undefined **
+
